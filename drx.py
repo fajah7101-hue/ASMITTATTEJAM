@@ -7,7 +7,7 @@ import time
 import psutil # - Asali System Load ke liye
 import socket
 import threading
-TOKEN = "YOUR_BOT_TOKEN"
+TOKEN = "8942738355:AAGbhwKSybNuQdJzUVXn0hg2HNiaFoCjXI8"
 bot = telebot.TeleBot(TOKEN)
 
 # - Load Config (Admin ID aur Token)
