@@ -49,4 +49,4 @@ def start_attack():
 if __name__ == '__main__':
     # - Port 8080 par API live hogi
     app.run(host='0.0.0.0', port=8080, debug=False)
-bot. infinity_polling() 
+bot.infinityy_polling() 
