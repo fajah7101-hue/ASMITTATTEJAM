@@ -158,4 +158,4 @@ def status(m):
     )
     bot.reply_to(m, status_text, parse_mode="Markdown")
 
-bot.polling(none_stop=True)
+
