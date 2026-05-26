@@ -7,6 +7,8 @@ import time
 import psutil # - Asali System Load ke liye
 import socket
 import threading
+TOKEN = "YOUR_BOT_TOKEN"
+bot = telebot.TeleBot(TOKEN)
 
 # - Load Config (Admin ID aur Token)
 if os.path.exists('config.json'):
@@ -35,8 +37,8 @@ def save_data(file, data):
 
 # - Commands Logic
 @bot.message_handler(commands=['start'])
-def welcome(m):
-    bot.reply_to(m, "🔥 **DRX POWER Bot Active**\n\nWelcome! Use /help to see command list.")
+def start(m):
+    bot.reply_to(m, "Bot working ✅")
 
 @bot.message_handler(commands=['help'])
 def help_cmd(m):
